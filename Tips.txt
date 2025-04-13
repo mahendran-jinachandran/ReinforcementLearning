@@ -1,0 +1,25 @@
+## Virtual Environment
+How to create a virtual environment: 
+--> python3 -m venv myenv
+--> source myenv/bin/activate
+
+To deactivate: 
+-->  deactivate
+
+## Here is the official GYM documentation:
+https://www.gymlibrary.dev/index.html
+https://github.com/openai/gym
+
+## Commands 
+pip install "gym[atari]" "gym[accept-rom-license]" tensorflow numpy opencv-python
+pip install "gym[classic_control]"
+pip install pyvirtualdisplay 
+pip install opencv-python
+% pip install tensorflow-metal
+
+or use the "requirements.txt" to install
+
+Warning: As of now (12-04-2025), gym supports only till Python 3.10. It might change in the future. 
+         Take a look at documentation for further details
+
+
